@@ -1,0 +1,17 @@
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\bin\Debug\netstandard2.0\App0.deps.json
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\bin\Debug\netstandard2.0\App0.dll
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\bin\Debug\netstandard2.0\ref\App0.dll
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\bin\Debug\netstandard2.0\App0.pdb
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\App0.csprojAssemblyReference.cache
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\Views\App.xaml.g.cs
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\Views\MasterDetailPage1.xaml.g.cs
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\Views\MasterDetailPage1Detail.xaml.g.cs
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\Views\MasterDetailPage1Master.xaml.g.cs
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\App0.AssemblyInfoInputs.cache
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\App0.AssemblyInfo.cs
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\App0.dll
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\ref\App0.dll
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\App0.pdb
+C:\Users\Jack Cruz\Source\Repos\App0\App0\App0\obj\Debug\netstandard2.0\Views\Pedidos.xaml.g.cs

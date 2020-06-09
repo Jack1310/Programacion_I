@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App0.MasterDetailPage1Detail"
+             Title="Services">
+  <StackLayout Padding="10">
+        <SearchBar x:Name="Bar" Placeholder="Buscar servicios..." HorizontalOptions="FillAndExpand" VerticalOptions="Start"
+           CancelButtonColor="Black"
+           PlaceholderColor="Black"
+           TextColor="Black"
+           HorizontalTextAlignment="Start"
+           FontSize="Small"
+           FontAttributes="Italic"/>
+        <ScrollView>
+            <StackLayout>
+                <ImageButton x:Name="jardin" Source="https://img.freepik.com/foto-gratis/persona-primer-plano-herramienta-recorte-bush_23-2148256665.jpg"
+         Clicked="jardin_clicked" HeightRequest="175"
+         Aspect="AspectFill"/>
+                <Label Text="Jardinero"
+         FontAttributes = "Bold" FontSize = "Large" HorizontalOptions = "Center"/>
+                <ImageButton x:Name="plomero" Source="https://resizer.iproimg.com/unsafe/1200x/https://assets.iproup.com/assets/jpg/2019/05/3894.jpg"
+         Clicked="plomero_clicked" HeightRequest="175"
+         Aspect="AspectFill"/>
+                <Label Text="Plomero"
+         FontAttributes = "Bold" FontSize = "Large" HorizontalOptions = "Center"/>
+                <ImageButton x:Name="electricista" Source="https://miro.medium.com/max/7726/1*DRewzpTn_wQo1JyFbqZBzw.jpeg"
+         Clicked="plomero_clicked" HeightRequest="175"
+         Aspect="AspectFill"/>
+                <Label Text="Electricista"
+         FontAttributes = "Bold" FontSize = "Large" HorizontalOptions = "Center"/>
+            </StackLayout>
+        </ScrollView> 
+    </StackLayout>
+</ContentPage>

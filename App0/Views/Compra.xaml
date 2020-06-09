@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App0.Views.Mapa">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="30" Text="¡Complete su pedido!" HorizontalOptions="Center" VerticalOptions="Fill"
+                   FontAttributes="Bold" Margin="0,40,0,0" TextColor="DodgerBlue"/>
+            
+            <Label FontSize="20" Text="Dirección" HorizontalOptions="Start" VerticalOptions="Fill"
+                   FontAttributes="Bold" TextColor="DodgerBlue" Margin="10,40,0,0"></Label>
+            
+            <Picker x:Name="IndustryTypePicker1" Title="Seleccione su sector" SelectedIndex="{Binding Industry}"
+                    HorizontalOptions="FillAndExpand" Margin="5,-10,5,0" FontSize="20">
+                <Picker.Items>
+                    <x:String>Anacaona</x:String>
+                    <x:String>Arroyo Hondo</x:String>
+                    <x:String>El Millón</x:String>
+                    <x:String>Gazcue</x:String>
+                    <x:String>La Esperilla</x:String>
+                    <x:String>Piantini</x:String>
+                </Picker.Items>
+            </Picker>
+            <Entry x:Name="Calle" Placeholder="Ingrese nombre de calle y n° de puerta" Margin="5,-10,5,0"/>
+            
+            <Label FontSize="20" Text="Descripción del servicio" HorizontalOptions="Start" VerticalOptions="Fill"
+                   FontAttributes="Bold" TextColor="DodgerBlue" Margin="10,40,0,0"></Label>
+                <Editor x:Name="Descripcion" Placeholder="Agregue una descripción..."
+                        Margin="5,-10,5,0" AutoSize="TextChanges" FontSize="20" AnchorY="50"></Editor>
+            
+            <Label FontSize="20" Text="Método de pago" HorizontalOptions="Start" VerticalOptions="Fill"
+                   FontAttributes="Bold" TextColor="DodgerBlue" Margin="10,40,0,0"></Label>
+
+            <Picker x:Name="IndustryTypePicker2" Title="Seleccione el método de pago"
+                    SelectedIndex="{Binding Industry2}" HorizontalOptions="FillAndExpand" Margin="5,-10,5,0" FontSize="20">
+                <Picker.Items>
+                    <x:String>Efectivo</x:String>
+                    <x:String>Tarjeta MasterCard</x:String>
+                    <x:String>Tarjeta Visa</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Button x:Name= "comprabtn" Text="Confirmar pedido" Clicked="Comprabtn_Clicked" Margin="5,40,5,0"
+                 FontAttributes = "Bold" FontSize = "Large" HorizontalOptions = "FillAndExpand"    
+                 BackgroundColor = "DodgerBlue" BorderColor="Black" TextColor="White" Command="{Binding SaveCommand}"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
